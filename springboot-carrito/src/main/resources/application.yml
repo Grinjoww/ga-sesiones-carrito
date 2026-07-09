@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30m          # timeout de sesion
+      cookie:
+        http-only: true     # flag HttpOnly
+        # En localhost sobre HTTP debe quedar en false; en produccion,
+        # sirviendo SIEMPRE sobre HTTPS, cambiar este valor a true.
+        secure: false
+        same-site: strict   # flag SameSite=Strict
+        name: CARRITO_SESSION
