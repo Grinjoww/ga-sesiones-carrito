@@ -1,0 +1,26 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ---- PHP ----
+php-carrito/vendor/
+php-carrito/.env
+php-carrito/*.log
+
+# ---- ASP.NET Core ----
+aspnet-carrito/**/bin/
+aspnet-carrito/**/obj/
+aspnet-carrito/**/.vs/
+aspnet-carrito/**/*.user
+
+# ---- Java / Spring Boot / Maven ----
+springboot-carrito/**/target/
+springboot-carrito/**/*.class
+springboot-carrito/**/.mvn/wrapper/maven-wrapper.jar
